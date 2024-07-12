@@ -10,7 +10,7 @@
     --blue: rgb(27, 152, 194);
 }
 .container .sidenav{
-    width: 10%;
+    width: 95px;
     /* width: 100px; */
     height: 100vh;
     padding: 0px 35px;
