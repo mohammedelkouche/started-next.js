@@ -1,0 +1,24 @@
+
+.search-input {
+    display: flex;
+    justify-content: center;
+    /* background-color: aquamarine; */
+}
+
+.search-input input{
+    width: 140px;
+    height: 20px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+
+.product-grid {
+    margin: 35px 0px;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+}

@@ -9,12 +9,16 @@
 :root{
     --blue: rgb(27, 152, 194);
 }
+
+.container {
+    width: 10%;
+    background-color: black;
+}
 .container .sidenav{
-    width: 95px;
+    /* width: 95px; */
     /* width: 100px; */
     height: 100vh;
     padding: 0px 35px;
-    background-color: black;
     display: flex;
     flex-direction: column;
     text-align: center;
