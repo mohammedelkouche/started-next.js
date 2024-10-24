@@ -2,7 +2,9 @@
 
 import React, { useState } from 'react';
 import ProductCard from '@/components/ProductCard/ProductCard';
-import '@/styles/Produclist/Productlist.css'
+import '@/styles/Produclist/Productlist.css';
+
+
 
 const ProductList = ({ products }) => {
   const [filteredProducts, setFilteredProducts] = useState(products);

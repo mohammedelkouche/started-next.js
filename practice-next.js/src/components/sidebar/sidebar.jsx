@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 // import '../../styles/sidebar/sidebar.css';
 import '@/styles/sidebar/sidebar.css';
+// import '@/styles/globals.css';
 
 export default function Sidebar() {
 
@@ -20,7 +21,7 @@ export default function Sidebar() {
     ];
 
     return(
-        <div className ="container">
+        <div className ="div_sidenav">
             <div className ="sidenav">
                 <div className ="logo">
                     <img src="new-logo.svg" alt="" />

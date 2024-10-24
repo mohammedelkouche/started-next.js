@@ -10,18 +10,19 @@
     --blue: rgb(27, 152, 194);
 }
 
-.container {
+.div_sidenav {
     width: 10%;
     background-color: black;
 }
-.container .sidenav{
+.div_sidenav .sidenav{
     /* width: 95px; */
     /* width: 100px; */
     height: 100vh;
     padding: 0px 35px;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    /* text-align: center; */
+    align-items: center;
     /* justify-content: center; */
 }
 
@@ -56,7 +57,8 @@ ul li{
     align-items: center;
     justify-content: center; */
     /* margin: 5px; */
-    padding: 40px 0px;
+    padding: 40px 20px;
+    ; 
     
 }
 

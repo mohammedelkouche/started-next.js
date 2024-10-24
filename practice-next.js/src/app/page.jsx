@@ -2,7 +2,15 @@ import React from 'react';
 import ProductList from '@/components/ProductList/ProductList';
 // import "@/styles/
 // import './styles/home/home.css';
-import '../styles/Home/home.css';
+import '../styles/Home/home.css'
+import { Card, CardContent } from "@/components/ui/card"
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
 
 const products = [
   {
@@ -76,6 +84,43 @@ export default function Home() {
     <div className='home-part'>
       <h1> PRODUCT LIST </h1>
       <ProductList products={products}/>
+        <div>
+            <h2>test</h2>
+            <Carousel
+                opts={{
+                    align: "start",
+                }}
+                // className="w- [50 px]"
+                className="w-full max-w-sm"
+                >
+                <CarouselContent>
+                    {Array.from({ length: 5 }).map((_, index) => (
+                    <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+                        <div className="p-1">
+                        <Card>
+                            <CardContent className="flex aspect-square items-center justify-center p-6">
+                            <span className="text-3xl font-semibold">{index + 1}</span>
+                            </CardContent>
+                        </Card>
+                        </div>
+                    </CarouselItem>
+
+                    // <CarouselItem key={index} className="lg:w-1/6 ">
+                    // <div className="p-1">
+                    //     <Card>
+                    //     <CardContent className="flex aspect-square items-center justify-center p-6">
+                    //         <span className="text-3xl font-semibold">{index + 1}</span>
+                    //     </CardContent>
+                    //     </Card>
+                    // </div>
+                    // </CarouselItem>
+
+                    ))}
+                </CarouselContent>
+                <CarouselPrevious />
+                <CarouselNext />
+            </Carousel>
+        </div>
     </div>
   );
 }
