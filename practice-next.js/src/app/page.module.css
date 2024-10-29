@@ -130,7 +130,7 @@ Enable hover only on non-touch devices */
 }
 
 /* Mobile */
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
   .content {
     padding: 4rem;
   }
@@ -230,4 +230,4 @@ Enable hover only on non-touch devices */
   to {
     transform: rotate(0deg);
   }
-} */
+} */ */

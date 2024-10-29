@@ -11,3 +11,19 @@ h1 {
     margin: 20px 0px;
     font-family:'Courier New', Courier, monospace
 }
+
+
+  
+  /* @media (min-width: 768px) {
+    .carousel-item {
+      flex-basis: 15%;
+      max-width: 200px;
+    }
+  } */
+  
+  /* @media (min-width: 1024px) {
+    .carousel-item {
+      flex-basis: 29%;
+      max-width: 250px;
+    }
+  } */

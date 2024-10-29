@@ -42,6 +42,10 @@ ul{
     list-style: none;
     /* margin: 30px 0px; */
     /* padding: 0px 10px; */
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* .sidenav .icon_items ul li{
@@ -57,7 +61,8 @@ ul li{
     align-items: center;
     justify-content: center; */
     /* margin: 5px; */
-    padding: 40px 20px;
+    /* padding: 40px 20px; */
+    padding: 40px 10px;
     ; 
     
 }
